@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Page 2</title>
+    
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+    <!-- Use GET, not POST -->
+    <form method="GET"> 
+        First Name: <input type="text" name="firstName"><br><br>
+        Last Name: <input type="text" name="lastName"><br><br>
+        Email: <input type="email" required name="email"><br><br>
+        Password: <input type="password" required minlength="8" name="password"><br><br>
+        Birthday: <input type="date" name="date"><br><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male">Male<br>
+        <input type="radio" name="gender" value="Female">Female<br>
+        <input type="radio" name="gender" value="Other">Other<br><br>
+        Hobbies:<br>
+        <input type="checkbox" name="tennis">Tennis <br>
+        <input type="checkbox" name="coding">Coding<br>
+        <input type="checkbox" name="cooking">Cooking<br>
+        <select name="cars">
+            <option name="volvo" value="volvo">Volvo</option>
+            <option name="audi" value="audi">Audi</option>
+            <option name="ferrari" value="ferrari">Ferrari</option>
+        </select>
+
+        <br><br><input type="submit" value="Register!">
+        <input type="reset">
+    </form>
+
+    <a href="index.html">
+    <h2>Go Back</h2>
+    </a>
+
+</body>
+</html>
+
+<!-- p/CURSO%20WEB%20DEVELOPMENT/HTML/register.html?
+firstName=agustin
+&lastName=quintabar
+&email=agus10%40live.com.m
+x&password=12345678
+&date=2019-01-02
+&gender=Male&tennis=on&coding=on&cars=volvo -->
